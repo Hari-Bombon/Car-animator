@@ -101,3 +101,51 @@
         }
     }
 
+
+    @media screen and (max-width: 720px) {
+        .car{
+            width: 200px;
+            left: 35%;
+            bottom: 100px;
+            transform: translateX(-50%);
+            position: absolute;
+            z-index: 2;
+        
+        }
+    }
+
+    @media screen and (max-width: 5750px) {
+        .car{
+            width: 200px;
+            left: 40%;
+            bottom: 100px;
+            transform: translateX(-50%);
+            position: absolute;
+            z-index: 2;
+        
+        }
+    }
+
+    @media screen and (min-width: 1280px) {
+        .car{
+            width: 200px;
+            left: 42%;
+            bottom: 100px;
+            transform: translateX(-50%);
+            position: absolute;
+            z-index: 2;
+        
+        }
+    }
+
+    @media screen and (min-width: 1580px) {
+        .car{
+            width: 200px;
+            left: 45%;
+            bottom: 100px;
+            transform: translateX(-50%);
+            position: absolute;
+            z-index: 2;
+        
+        }
+    }
